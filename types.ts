@@ -9,7 +9,6 @@ export interface AdContent {
 
 export interface AnalysisResult {
   summary: string;
-  score: number; // 1-100
   checklist: string[]; // Service recommendations
   details: {
     optics: string;
